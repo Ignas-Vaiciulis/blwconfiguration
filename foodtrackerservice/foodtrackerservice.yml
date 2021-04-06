@@ -1,0 +1,27 @@
+#example.property: "I AM IN THE DEFAULT"
+#spring.jpa.database: "MySQL"
+#spring.datasource.platform: "mysql"
+#spring.jpa.show-sql: "true"
+#spring.database.driverClassName: "com.mysql.jdbc.Driver"
+#spring.datasource.url: "jdbc:mysql://db:3306/blwfoodtrackerdb?serverTimezone=UTC"
+#spring.datasource.username: "root"
+#spring.datasource.password: "root"
+#spring.datasource.testWhileIdle: "true"
+#spring.datasource.validationQuery: "SELECT 1"
+#spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQL5Dialect"
+#spring.datasource.initialization-mode: "always"
+
+
+#redis.server: "redis"
+#redis.port: "6379"
+#signing.key: "345345fsdfsf5345"
+
+
+#database=mysql
+#spring.datasource.url=jdbc:mysql://localhost/blwfoodtrackerdb?serverTimezone=UTC
+#spring.datasource.username=root
+#spring.datasource.password=root
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+#
+#spring.jpa.hibernate.ddl-auto=none
+#spring.datasource.initialization-mode=always
