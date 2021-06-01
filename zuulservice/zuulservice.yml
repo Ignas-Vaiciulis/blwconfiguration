@@ -1,0 +1,3 @@
+zuul.ignored-services: "*"
+zuul.prefix: /api
+zuul.routes.foodtrackerservice: /blw/**
