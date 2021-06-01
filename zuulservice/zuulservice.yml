@@ -1,5 +1,5 @@
 zuul.ignored-services: "*"
 zuul.prefix: /api
-zuul.routes.foodtrackerservice: /blw/**
+# zuul.routes.foodtrackerservice: /blw/**
 
 management.endpoints.web.exposure.include: "*"
