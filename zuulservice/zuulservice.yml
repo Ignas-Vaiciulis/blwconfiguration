@@ -2,4 +2,6 @@ zuul.ignored-services: "*"
 zuul.prefix: /api
 zuul.routes.foodtrackerservice: /blw/**
 
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+
 management.endpoints.web.exposure.include: "*"
