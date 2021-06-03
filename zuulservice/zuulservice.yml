@@ -3,6 +3,7 @@ zuul.prefix: /api
 zuul.routes.foodtrackerservice: /blw/**
 
 # for specific service replace the *.default.* with the Eureka service ID name of the service for timeout override
-hystrix.command.foodtrackerservice.execution.isolation.thread.timeoutInMilliseconds: 5000
+# hystrix.command.foodtrackerservice.execution.isolation.thread.timeoutInMilliseconds: 5000
+hystrix.command.default.execution.timeout.enabled: false
 
 management.endpoints.web.exposure.include: "*"
