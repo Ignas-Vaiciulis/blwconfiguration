@@ -1,6 +1,7 @@
 zuul.ignored-services: "*"
 zuul.prefix: /api
 zuul.routes.foodtrackerservice: /blw/**
+zuul.routes.nextmodule: /nextmodule/**
 
 # for specific service replace the *.default.* with the Eureka service ID name of the service for timeout override
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5100
